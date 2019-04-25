@@ -1,0 +1,28 @@
+{
+    "api":{
+        "mongodb":{
+            "config":{
+                "host":"localhost",
+                "port":27017,
+                "database":"chat",
+                "username":"",
+                "password":"",
+                "replicaSet":""
+            }
+        },
+        "messaging":{
+            "put_message":{
+                "success_put":"Message inserted with success.",
+                "error_put":"Message can not inserted."
+            },
+            "get_message":{
+                "success_get":"Messages recovered with success.",
+                "error_get":"We Can not recovered the messages. "
+            },
+            "get_rooms":{
+                "success_get":"Rooms recovered with success.",
+                "error_get":"We Can not recovered the rooms. "
+            }
+        }
+    }
+}
